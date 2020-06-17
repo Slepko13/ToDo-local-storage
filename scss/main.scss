@@ -71,13 +71,16 @@
                     font-weight: bold;
                     .fa-circle-thin {
                         font-weight: bold;
+                        font-size: 20px;
                     }
                     .fa-check-circle {
                         color: yellowgreen;
+                        font-size: 20px;
                     }
                     .text {
                         flex-grow: 1;
                         margin-left: 10px;
+                        font-size: 20px;
                     }
                     .lineThough {
                         text-decoration: line-through;
@@ -86,6 +89,8 @@
                     }
                     .fa-trash-o {
                         font-weight: bold;
+                        font-size: 20px;
+
                         &:hover {
                             color: red;
                         }

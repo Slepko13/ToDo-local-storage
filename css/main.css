@@ -60,18 +60,22 @@
           padding: 5px 10px;
           font-weight: bold; }
           .container .wrapper .content #list .item .fa-circle-thin {
-            font-weight: bold; }
+            font-weight: bold;
+            font-size: 20px; }
           .container .wrapper .content #list .item .fa-check-circle {
-            color: yellowgreen; }
+            color: yellowgreen;
+            font-size: 20px; }
           .container .wrapper .content #list .item .text {
             flex-grow: 1;
-            margin-left: 10px; }
+            margin-left: 10px;
+            font-size: 20px; }
           .container .wrapper .content #list .item .lineThough {
             text-decoration: line-through;
             opacity: 0.6;
             font-weight: normal; }
           .container .wrapper .content #list .item .fa-trash-o {
-            font-weight: bold; }
+            font-weight: bold;
+            font-size: 20px; }
             .container .wrapper .content #list .item .fa-trash-o:hover {
               color: red; }
       .container .wrapper .content .add-item {
