@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Todo list JS</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class=" wrapper row ">
+            <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="header">
+                    <div class="top-info">
+                        <div class="title">TODO with local storage</div>
+                        <div class="clear">
+                            <i class="fa fa-refresh" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="time-info">
+                        <div id="date"></div>
+                        <div class="time"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <ul id="list">
+                    </ul>
+                    <div class="add-item">
+                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                        <input type="text" id="input" placeholder="Add a to-do">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+.container {
+    margin-top: 40px;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 20px;
+        .header {
+            background: url(../images/bg.jpg) center center no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 150px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            .top-info {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .title {
+                    color: white;
+                    margin-left: 10px;
+                    font-size: 18px;
+                }
+                .clear {
+                    display: flex;
+                    justify-content: flex-end;
+                    font-size: 36px;
+                    .fa-refresh {
+                        color: white;
+                        margin: 10px;
+                        margin-right: 20px;
+                        cursor: pointer;
+                    }
+                    .fa-refresh:hover {
+                        color: wheat;
+                    }
+                }
+            }
+            .time-info {
+                margin: 5px;
+                margin-left: 10px;
+
+                #date {
+                    color: white;
+                    font-family: "Titillium Web";
+                }
+                .time {
+                    color: white;
+                }
+            }
+        }
+        .content {
+            border: 1px solid blue;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            height: calc(90vh - 170px);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            #list {
+                list-style: none;
+                padding-left: 0;
+                overflow: auto;
+                .item {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px 10px;
+                    font-weight: bold;
+                    .fa-circle-thin {
+                        font-weight: bold;
+                    }
+                    .fa-check-circle {
+                        color: yellowgreen;
+                    }
+                    .text {
+                        flex-grow: 1;
+                        margin-left: 10px;
+                    }
+                    .lineThough {
+                        text-decoration: line-through;
+                        opacity: 0.6;
+                        font-weight: normal;
+                    }
+                    .fa-trash-o {
+                        font-weight: bold;
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+            }
+            .add-item {
+                display: flex;
+                align-content: center;
+                margin: 10px;
+                .fa-plus-circle {
+                    font-size: 36px;
+                    color: blue;
+                    margin-right: 20px;
+                    &:hover {
+                        color: rgb(71, 171, 238);
+                    }
+                }
+                #input {
+                    flex-grow: 1;
+                    border-radius: 8px;
+                    padding-left: 10px;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
